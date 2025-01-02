@@ -1,0 +1,418 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.Button1 {
+    padding: 14px;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-left: 395px;
+}
+
+.PHead {
+  background-color:#007BFF;
+  border-radius: 7px;
+  color: white;
+  padding: 5px;
+}
+
+.AHead {
+  background-color:#007BFF;
+  border-radius: 7px;
+  color: white;
+  padding: 5px;
+
+}
+
+
+
+.Button3 {
+    justify-content: space-around;
+    display: flex;
+    gap: 300px;
+  
+    
+
+}
+.Button2 {
+    padding: 14px;
+    margin-right: 0px;
+    margin-top: 20px;
+
+} 
+
+
+.Button4 {
+  justify-content: space-around;
+  display: flex;
+  gap: 300px;
+
+}
+
+.Button5 {
+  padding: 14px;
+  margin-right: 100px;
+  margin-top: 20px;
+}
+
+.Head {
+  background-color: whitesmoke;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+max-width: 2000px;
+  height: 100px;
+ 
+}
+.San {
+  height: 100px;
+  width: 250px;
+}
+
+.Footer {
+  background-color: whitesmoke;
+  max-width: 2000px;
+  height: 100px;
+  background-color: #007bff;
+
+  
+ 
+  
+  
+}
+.Para {
+  color: white;
+  margin-left: 570px;
+  padding-top: 70px;
+}
+
+.Address {
+  color: white;
+  font-size: x-large;
+margin-left: 20px;
+}
+.Para1 {
+  color: white;
+  margin-left: 20px;
+  
+}
+
+
+
+form {
+    background: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  form div {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input,
+  textarea,
+  select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    background: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #0056b3;
+  }
+  
+  .error {
+    color: red;
+    font-size: 12px;
+  }
+
+
+
+
+
+
+
+  form {
+    background: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  form div {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input,
+  select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    background: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #0056b3;
+  }
+  
+  .error {
+    color: red;
+    font-size: 12px;
+  }
+
+
+
+
+
+
+  form {
+    background: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  form div {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    background: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #0056b3;
+  }
+  
+  .error {
+    color: red;
+    font-size: 12px;
+  }
+
+
+
+
+/* Container */
+.form-container {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+/* Form Title */
+h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Form Group */
+.form-group {
+  margin-bottom: 15px;
+}
+
+/* Labels */
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+/* Input Fields */
+input[type="text"],
+select,
+.friend-name {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+/* Radio Buttons */
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+/* Checkbox */
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+/* Required Asterisk */
+.required {
+  color: red;
+}
+
+/* Submit Button */
+.submit-btn {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.MySubmit {
+  background-color:  #007BFF;
+  padding: 10px;
+margin: 10px;
+  margin-top: 10px;
+ 
+  
+ 
+}
+.MySubmit1 {                                                                                                                                                                  
+  
+  
+ padding: 10px;
+margin: 10px;
+margin-left: 300px;
+ 
+ 
+justify-content: space-around;
+ 
+
+
+}
+
+  
+  /* Progress Setup Container */
+.progress-setup-container {
+  font-family: Arial, sans-serif;
+  width: 80%;
+  margin: 40px auto;
+  text-align: center;
+}
+
+/* Progress Bar */
+.progress-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.progress-step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+}
+
+.step-number {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #ddd;
+  color: #666;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+}
+
+.step-label {
+  margin-top: 8px;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.progress-step.active .step-number {
+  background: #007bff;
+  color: white;
+}
+
+.progress-step.active .step-label {
+  color: #007bff;
+}
+
+/* Progress Line */
+.progress-line {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  right: 20px;
+  height: 4px;
+  background: #ddd;
+  z-index: 1;
+}
+
+.progress-bar .progress-line {
+  background: #007bff;
+  transition: width 0.3s ease-in-out;
+}
+
+
+

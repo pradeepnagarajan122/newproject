@@ -1,7 +1,7 @@
 import React from "react";
 import "../Css/ProgressSetup.css"; 
 
-const steps = ["PersonalData", "AcademicInfo", "EmploymentInfo", "Registration"];
+const steps = ["Personal Data", "Academic Info", "Employment Info", "Registration"];
 
 const ProgressSetup = (props) => {
 
@@ -12,7 +12,7 @@ const ProgressSetup = (props) => {
     <div className="progress-setup-container">
       <div className="progress-bar">
         {steps.map((step, index) => (
-          <div key={index} className={`progress-step ${index + 1 <= props.currentStep ? "active" : ""}`} onClick={()=>props.setCurrentStep(index+1)}>
+          <div key={index} className={`progress-step ${index + 1 <= props.currentStep ? "active" : ""}`} >
             <div className="step-number">{index + 1}</div>
             <div className="step-label">{step}</div>
           </div>

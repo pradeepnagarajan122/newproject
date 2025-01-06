@@ -1,0 +1,62 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container {
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap on smaller screens */
+  }
+  
+  button {
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    
+  }
+  
+  /* Styles for tablets */
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      align-items: center; /* Center buttons vertically */
+      
+    }
+  
+    button {
+      width: 80%; /* Buttons take up more space on smaller screens */
+      margin-right: 0; /* Reset margin-right */
+   
+    }
+  }
+  
+  /* Styles for mobile */
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 20px; /* Smaller heading font size */
+      text-align: center;
+    }
+  
+    ul {
+      font-size: 14px; /* Adjust font size for terms list */
+      padding-left: 15px; /* Reduce padding for smaller screens */
+    }
+  
+    button {
+      width: 90%; /* Buttons take full width for mobile */
+      font-size: 14px; /* Smaller button text */
+    
+    }
+  }
+  

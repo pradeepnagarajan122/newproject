@@ -1,0 +1,36 @@
+/* Footer Styles */
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px 0 20px;
+    background-color: #007BFF !important ; 
+    color: #fff; /* White Text */
+    text-align: center;
+    width: 100%;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+  }
+  
+  .footer-text {
+    font-size: 16px;
+    margin: 10px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .footer-text {
+      font-size: 14px; /* Slightly smaller font size for smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .footer-container {
+      padding: 15px;
+    }
+  
+    .footer-text {
+      font-size: 12px; /* Smaller font for mobile devices */
+     
+    }
+  }

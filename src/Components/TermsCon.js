@@ -9,7 +9,7 @@
 
 import React, { useState } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
-
+import Footer from './Footer';
 function TermsAndCon(props) {
   const [isChecked, setIsChecked] = useState(false);
   const [formSubmitted, setFormSubmitted] = useState(false);
@@ -70,29 +70,52 @@ function TermsAndCon(props) {
           </label>
         </div>
         <div
-          className="container"
-          style={{ justifyContent: 'space-around', display: 'flex' }}
-        >
-          <button
-            type="button"
-            onClick={goToPreviousStep}
-            style={{ padding: '10px', margin: '10px', marginRight: '350px' }}
-          >
-            Previous
-          </button>
+  className="container"
+  style={{
+    justifyContent: 'space-between',
+    display: 'flex',
+     // Ensures buttons wrap for smaller screens
+    gap: '10px', // Adds space between buttons
+    alignItems:"center",
+    
+  }}
+>
+  <button
+    type="button"
+    onClick={goToPreviousStep}
+    style={{
+      padding: '10px',
+      margin: '5px',
+      width: '100%',
+      maxWidth: 'fit-content', // Limit button width on larger screens
+      
+     
+    }}
+  >
+    Previous
+  </button>
 
-          <button
-            type="submit"
-            onClick={handleSubmit}
-            disabled={formSubmitted}
-            style={{ marginTop: '20px', padding: '10px', margin: '10px' }} 
-            
-          >
-            Submit
-          </button>
+  <button
+    type="submit"
+    onClick={handleSubmit}
+    disabled={formSubmitted}
+    style={{
+      
+      padding: '10px',
+      margin: '10px',
+      width: '100%',
+      maxWidth: 'fit-content', // Limit button width on larger screens
+    }}
+  >
+    Submit
+  </button>
+
         </div>
       </form>
+  
     </div>
+     
+  
   );
 }
 

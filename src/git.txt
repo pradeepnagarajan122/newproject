@@ -1,0 +1,8 @@
+git init
+git add .
+git commit -m "your_message"
+
+Push an existing Repository:
+git remote add origin https://github.com/pradeepnagarajan122/newproject.git
+git branch -M main
+git push -u origin main

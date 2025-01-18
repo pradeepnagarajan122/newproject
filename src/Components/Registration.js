@@ -357,7 +357,7 @@ const Registration = (props) => {
       });
       setErrors({});
     } else {
-      alert("Please Fill All Requirements.");
+      alert("Student Information  Submitted");
     }
   };
 

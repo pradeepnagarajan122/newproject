@@ -231,6 +231,8 @@ const EmploymentInfo = (props) => {
           className="form-input"
         />
         {errors.companyName && <p className="error">{errors.companyName}</p>}
+
+        
       </div>
 
       <div className="form-group">
